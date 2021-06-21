@@ -1,4 +1,7 @@
 import collections
+from typing import Deque
+
+
 class Test:
     def isPalindrome(self,s:str)->bool:
         strs: Deque=collections.deque()
