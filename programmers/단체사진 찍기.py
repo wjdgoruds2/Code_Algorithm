@@ -1,4 +1,3 @@
-####################################풀지못함
 from itertools import permutations
 def solution(n,data):
     answer=0
