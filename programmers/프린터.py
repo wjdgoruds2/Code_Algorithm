@@ -16,17 +16,6 @@
 #                 return answer
 #     return answer
 
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
 def solution(priorities, location):
     queue =  [(i,p) for i,p in enumerate(priorities)]
     answer = 0
