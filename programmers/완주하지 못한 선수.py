@@ -11,10 +11,11 @@ def solution(participant, completion):
 #######dic[이름]=1로
     temp={}
     for i in participant:
-        if i in temp:
-            temp[i]+=1 #동명이인
-        else:
-            temp[i]=1 #일반 참여인
+        temp[i]+=temp.get(i,0)+1 ######한줄로 아래를 해결 가능
+        # if i in temp:
+        #     temp[i]+=1 #동명이인
+        # else:
+        #     temp[i]=1 #일반 참여인
     for j in completion:
         if temp[j]==1:#이름 같으면 temp[이름]삭제
             del temp[j] 
