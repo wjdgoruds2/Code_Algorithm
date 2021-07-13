@@ -11,4 +11,3 @@ for n in range(1,len(time)):
         last=time[n][1]
         count+=1
 print(count)
-
